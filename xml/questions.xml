@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+  <question id='exam01'>
+    <type>text</type>
+      <text>Primer equip en guanyar un mundial de League of Legends.</text>
+      <answer>Fnatic</answer>
+  </question>
+  <question id='exam02'>
+    <type>text</type>
+      <text>Quí va ser l'unic jugador espanyol en guanyar un mundial del LOL?</text>
+      <answer>xPeke</answer>
+  </question>
+  <question id='exam03'>
+    <type>select</type>
+      <text>Quin equip va guanyar més mundials a l'história del LOL?</text>
+      <option>Fnatic</option>
+      <option>Samsung Galaxy</option>
+      <option>SKT T1</option>
+      <option>TSM</option>
+      <answer>2</answer>
+  </question>
+</questions>
