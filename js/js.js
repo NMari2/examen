@@ -28,7 +28,7 @@ window.onload = function(){
    gestionarXml(this);
   }
  };
- xhttp.open("GET", "xml/preguntas.xml", true);
+ xhttp.open("GET", "xml/questions.xml", true);
  xhttp.send();
 }
 
@@ -140,7 +140,7 @@ function ponerDatosSelectHtml(t,opt){
 }
 
 function ponerDatosCheckboxHtml(t,opt){
- var checkboxContainer=document.getElementById('checkbox1');
+ var checkboxContainer=document.getElementById('checkboxdiv');
  document.getElementById('checkbox').innerHTML = t;
  for (i = 0; i < opt.length; i++) { 
     var input = document.createElement("input");
@@ -170,7 +170,7 @@ function presentarNota(){
 }
 
 function inicializar(){
-   document.getElementById('resultadosDiv').innerHTML = "";
+   document.getElementById('resultado').innerHTML = "";
    nota=0.0;
 }
 
