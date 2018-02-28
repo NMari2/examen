@@ -3,12 +3,12 @@
 <!DOCTYPE questions>
 
 <questions>
-    <question id="profe_001">
+    <question id="exam01">
 	<type>text</type>
 	<title>¿Cuántos equipos participaron en el Mundial 2017?</title>
 	<answer>24</answer>
     </question>
-    <question id="profe_002">
+    <question id="exam02">
 	<type>select</type>
 	<title>HTML son las iniciales de...</title>
 	<option>Hyper Text Transfer Protocol</option>
@@ -16,7 +16,7 @@
 	<option>Hypertext markup language</option>
 	<answer>2</answer>
     </question>
-     <question id="profe_003">
+     <question id="exam03">
 	<type>checkbox</type>
 	<title>Marca las frutas</title>
 	<option>naranja</option>
