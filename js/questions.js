@@ -134,7 +134,7 @@ function corregirNombre(){
   darRespuestaHtml("P4: Correcto");
   nota +=1;
  }
- else{
+ else {
   darRespuestaHtml("P4: Incorrecto");
  }
 }
