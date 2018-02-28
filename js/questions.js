@@ -173,7 +173,7 @@ function ponerDatosCheckboxHtml(t,opt){
  }  
 }
 function ponerDatosInputHtml2(t){
- document.getElementsById("tituloInput2").innerHTML = t;
+document.getElementById("tituloInput2").innerHTML = t;
 }
 
 //****************************************************************************************************
