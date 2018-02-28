@@ -72,7 +72,7 @@ function gestionarXml(dadesXml){
  }
  
  //Nombre
- var tituloInput2=xmlDoc.getElementsTagName("title")[3].innerHTML;
+ var tituloInput2=xmlDoc.getElementsByTagName("title")[3].innerHTML;
  ponerDatosInputHtml(tituloInput2);
  nombre=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
 }
