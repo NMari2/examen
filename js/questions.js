@@ -1,5 +1,6 @@
 var formElement=null;
 var numeroSecreto=null;
+var nombre=null;
 var respuestaSelect=null;
 var respuestasCheckbox = [];
 var nota = 0;  //nota de la prueba sobre 3 puntos (hay 3 preguntas)
@@ -16,6 +17,7 @@ window.onload = function(){
     corregirNumber();
     corregirSelect();
     corregirCheckbox();
+    corregirNombre();
     presentarNota();
    }
    return false;
@@ -68,6 +70,11 @@ function gestionarXml(dadesXml){
  for (i = 0; i < nres; i++) { 
   respuestasCheckbox[i]=xmlDoc.getElementById("exam03").getElementsByTagName("answer")[i].innerHTML;
  }
+ 
+ //Nombre
+ var tituloInput2=xmlDoc.getElementsTagName("title")[3].innerHTML;
+ ponerDatosInputHtml(tituloInput2);
+ nombre=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
 }
 
 //****************************************************************************************************
@@ -121,6 +128,16 @@ function corregirCheckbox(){
    } 
   }
 }
+function corregirNombre(){
+ var s=formElemnt.elements[3].value;
+ if(s==nombre) {
+  darRespuestaHtml("P4: Correcto");
+  nota +=1;
+ }
+ else{
+  darRespuestaHtml("P4: Incorrecto");
+ }
+}
 
 //****************************************************************************************************
 // poner los datos recibios en el HTML
@@ -154,6 +171,9 @@ function ponerDatosCheckboxHtml(t,opt){
     checkboxContainer.appendChild(label);
     checkboxContainer.appendChild(document.createElement("br"));
  }  
+}
+function ponerDatosInputHtml2(t){
+ document.getElementsById("tituloInput2").innerHTML = t;
 }
 
 //****************************************************************************************************
