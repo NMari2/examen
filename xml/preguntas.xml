@@ -18,13 +18,14 @@
     </question>
      <question id="exam03">
 	<type>checkbox</type>
-	<title>Marca las frutas</title>
-	<option>naranja</option>
-	<option>verde</option>
-	<option>fresa</option>
-	<option>violeta</option>
+	<title>Marca los jugadores que formaron parte de SKT T1 en el mundial de 2015:</title>
+	<option>Faker</option>
+	<option>Bang</option>
+	<option>Impact</option>
+	<option>Wolf</option>
 	<answer>0</answer>
-	<answer>2</answer>
+	<answer>1</answer>
+	<answer>3</answer>
     </question>
 	
 </questions>
