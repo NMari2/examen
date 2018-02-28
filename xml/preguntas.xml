@@ -10,11 +10,11 @@
     </question>
     <question id="exam02">
 	<type>select</type>
-	<title>HTML son las iniciales de...</title>
-	<option>Hyper Text Transfer Protocol</option>
-	<option>File Transfer Protocol</option>
-	<option>Hypertext markup language</option>
-	<answer>2</answer>
+	<title>Primer equipo en ganar un mundial del LOL:</title>
+	<option>SKAT T1</option>
+	<option>Fnatic</option>
+	<option>TSM</option>
+	<answer>1</answer>
     </question>
      <question id="exam03">
 	<type>checkbox</type>
