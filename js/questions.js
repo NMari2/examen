@@ -129,7 +129,7 @@ function corregirCheckbox(){
   }
 }
 function corregirNombre(){
- var s=formElemnt.elements[3].value;
+ var s=formElement.elements[3].value;
  if(s==nombre) {
   darRespuestaHtml("P4: Correcto");
   nota +=1;
