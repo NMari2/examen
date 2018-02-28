@@ -5,8 +5,8 @@
 <questions>
     <question id="profe_001">
 	<type>text</type>
-	<title>Adivina el número secreto... </title>
-	<answer>23</answer>
+	<title>¿Cuántos equipos participaron en el Mundial 2017?</title>
+	<answer>24</answer>
     </question>
     <question id="profe_002">
 	<type>select</type>
