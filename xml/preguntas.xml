@@ -11,7 +11,7 @@
     <question id="exam02">
 	<type>select</type>
 	<title>Primer equipo en ganar un mundial del LOL:</title>
-	<option>SKAT T1</option>
+	<option>SKT T1</option>
 	<option>Fnatic</option>
 	<option>TSM</option>
 	<answer>1</answer>
@@ -22,10 +22,9 @@
 	<option>Faker</option>
 	<option>Bang</option>
 	<option>Impact</option>
-	<option>Wolf</option>
+	<option>Mithy</option>
 	<answer>0</answer>
 	<answer>1</answer>
-	<answer>3</answer>
     </question>
 	
 </questions>
