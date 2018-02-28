@@ -2,6 +2,7 @@ var formElement=null;
 var numeroSecreto=null;
 var nombre=null;
 var respuestaSelect=null;
+var selectmulti=null;
 var respuestasCheckbox = [];
 var nota = 0;  //nota de la prueba sobre 3 puntos (hay 3 preguntas)
 
@@ -18,6 +19,7 @@ window.onload = function(){
     corregirSelect();
     corregirCheckbox();
     corregirNombre();
+    corregirmulti();
     presentarNota();
    }
    return false;
@@ -75,6 +77,18 @@ function gestionarXml(dadesXml){
  var tituloInput2=xmlDoc.getElementsByTagName("title")[3].innerHTML;
  ponerDatosInputHtml2(tituloInput2);
  nombre=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
+ 
+ //SelectMultiple
+ var tituloMulti=xmlDoc.getElemtsByTagName("title")[4].innerHTML;
+ var opcionesSelectMulti = [];
+ var nopt = xmlDoc.getElementById("exam05").getElementsByTagName('option').length;
+ for (i = 0; i < nopt; i++) {
+  opcionesSelectMulti[i] = xmlDoc.getElementById("exam05").getElementsByTagName('option')[i].innerHTML;
+ }
+ ponerDatosSelectMultiHtml(tituloMulti,opcionesSelectMulti);
+ var mres = xmlDoc.getElementById("exam05").getElementsByTagName('answer').length;
+ for (i = 0; i < mres; i++) {
+  opcionesSelectMulti[i] = xmlDoc.getElementById("exam05").getElementsByTagName('answer')[i].innerHTML;
 }
 
 //****************************************************************************************************
