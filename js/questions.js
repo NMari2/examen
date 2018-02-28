@@ -201,9 +201,9 @@ function comprobar(){
    for (i = 0; i < f.color.length; i++) {  //"color" es el nombre asignado a todos los checkbox
       if (f.color[i].checked) checked=true;
    }
-   if (f.elements[0].value=="") {
+   if (f.elements[4].value=="") {
     f.elements[0].focus();
-    alert("Escribe un número");
+    alert("Escribe un nombre");
     return false;
    } else if (f.elements[1].selectedIndex==0) {
     f.elements[1].focus();
