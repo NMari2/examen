@@ -31,4 +31,15 @@
 	<title>¿Quien fué el único jugador español en ganar un mundial?</title>
 	<answer>xpeke</answer>
     </question>
+    <question id="exam05">
+	<type>selectmulti</type>
+	<title>Equipos de la LCS EU que llegaron al mundial de 2017:</title>
+	<option>VOL</option>
+	<option>Fnatic</option>
+	<option>G2</option>
+	<option>Misfits</option>
+	<answer>1</answer>
+	<answer>2</answer>
+	<answer>3</answer>
+    </question>
 </questions>
